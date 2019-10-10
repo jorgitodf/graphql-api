@@ -1,0 +1,11 @@
+query {
+  allUsers {
+		id name email
+  }
+}
+
+mutation {
+	createUser(name: "Luciano Silva", email: "luciano@gmail.com") {
+    id name email
+  }
+}
