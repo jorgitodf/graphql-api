@@ -9,3 +9,7 @@ mutation {
     id name email
   }
 }
+
+
+npm i -G sequelize-cli@3.0.0
+sequelize init:config --config src/config/config.json
