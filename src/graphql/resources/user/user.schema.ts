@@ -23,6 +23,7 @@ const userTypes = `
 
     input UserUpdatePasswordInput {
         password: String!
+    }    
 
 `; 
 

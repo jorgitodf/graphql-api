@@ -25,6 +25,7 @@ const userTypes = `
 
     input UserUpdatePasswordInput {
         password: String!
+    }    
 
 `;
 exports.userTypes = userTypes;
