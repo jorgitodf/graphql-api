@@ -66,3 +66,12 @@ const resolvers = {
         }
     }    
 };
+
+
+
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+$ docker pull ubuntu
+https://hub.docker.com/_/postgres
+docker ps
+usuario: postgre
+senha: docker
